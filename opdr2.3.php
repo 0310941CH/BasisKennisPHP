@@ -9,4 +9,5 @@ $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birt
 ? ((date("Y") - $birthDate[2]) - 1)
 : (date("Y") - $birthDate[2]));
 
-echo "$name is $age jaar oud";
+echo "$name is $age jaar oud"; /* Laat naam en leeftijd zien */
+//
